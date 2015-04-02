@@ -21,6 +21,10 @@
 		D18D23881ACAEC600072FFF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18D236A1ACAEC600072FFF5 /* UIKit.framework */; };
 		D18D23901ACAEC610072FFF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18D238E1ACAEC610072FFF5 /* InfoPlist.strings */; };
 		D18D23921ACAEC610072FFF5 /* Doody_BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18D23911ACAEC610072FFF5 /* Doody_BallTests.m */; };
+		D18D23A01ACB15F40072FFF5 /* doody4.png in Resources */ = {isa = PBXBuildFile; fileRef = D18D239C1ACB15F40072FFF5 /* doody4.png */; };
+		D18D23A11ACB15F40072FFF5 /* doody3.png in Resources */ = {isa = PBXBuildFile; fileRef = D18D239D1ACB15F40072FFF5 /* doody3.png */; };
+		D18D23A21ACB15F40072FFF5 /* doody2.png in Resources */ = {isa = PBXBuildFile; fileRef = D18D239E1ACB15F40072FFF5 /* doody2.png */; };
+		D18D23A31ACB15F40072FFF5 /* doody1.png in Resources */ = {isa = PBXBuildFile; fileRef = D18D239F1ACB15F40072FFF5 /* doody1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		D18D238D1ACAEC600072FFF5 /* Doody BallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doody BallTests-Info.plist"; sourceTree = "<group>"; };
 		D18D238F1ACAEC610072FFF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D18D23911ACAEC610072FFF5 /* Doody_BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doody_BallTests.m; sourceTree = "<group>"; };
+		D18D239C1ACB15F40072FFF5 /* doody4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doody4.png; sourceTree = "<group>"; };
+		D18D239D1ACB15F40072FFF5 /* doody3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doody3.png; sourceTree = "<group>"; };
+		D18D239E1ACB15F40072FFF5 /* doody2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doody2.png; sourceTree = "<group>"; };
+		D18D239F1ACB15F40072FFF5 /* doody1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doody1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 		D18D236C1ACAEC600072FFF5 /* Doody Ball */ = {
 			isa = PBXGroup;
 			children = (
+				D18D239B1ACAED5D0072FFF5 /* Images */,
 				D18D23751ACAEC600072FFF5 /* JETSAppDelegate.h */,
 				D18D23761ACAEC600072FFF5 /* JETSAppDelegate.m */,
 				D18D23781ACAEC600072FFF5 /* Main.storyboard */,
@@ -150,6 +159,17 @@
 				D18D238E1ACAEC610072FFF5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D18D239B1ACAED5D0072FFF5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D18D239C1ACB15F40072FFF5 /* doody4.png */,
+				D18D239D1ACB15F40072FFF5 /* doody3.png */,
+				D18D239E1ACB15F40072FFF5 /* doody2.png */,
+				D18D239F1ACB15F40072FFF5 /* doody1.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18D23A21ACB15F40072FFF5 /* doody2.png in Resources */,
+				D18D23A01ACB15F40072FFF5 /* doody4.png in Resources */,
 				D18D237F1ACAEC600072FFF5 /* Images.xcassets in Resources */,
+				D18D23A31ACB15F40072FFF5 /* doody1.png in Resources */,
 				D18D23711ACAEC600072FFF5 /* InfoPlist.strings in Resources */,
 				D18D237A1ACAEC600072FFF5 /* Main.storyboard in Resources */,
+				D18D23A11ACB15F40072FFF5 /* doody3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

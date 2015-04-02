@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JETSViewController : UIViewController
+@interface JETSViewController : UIViewController <UIDynamicAnimatorDelegate>
+
+@property (nonatomic,strong) UIView* logo;
+@property (nonatomic,strong) UILabel* logoLabel;
+@property (nonatomic,strong) UIDynamicAnimator* animator;
 
 @end
